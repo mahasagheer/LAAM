@@ -1,0 +1,263 @@
+{
+  "products": [
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/large-_0011_Screenshot_20231016_160736_Gallery_1.jpg?v=1697619281&width=300",
+      "price": "PKR 5,997",
+      "discountPrice": "PKR 19,990",
+      "brandName": "Agha Jaan",
+      "id": "1"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0005_1H8A7324.jpg?v=1699536427&width=300",
+      "price": "PKR 6,588",
+      "discountPrice": "PKR 21,960",
+      "brandName": "",
+      "id": "3"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0011_Screenshot_20230821_203416_Gallery.jpg?v=1692710661&width=300",
+      "price": "PKR 6,495",
+      "discountPrice": "PKR 21,650",
+      "brandName": "",
+      "id": "4"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/47153419a56a0b0b317f7bf74a1eae0e.jpg?v=1706017252",
+      "price": "PKR 6,990",
+      "discountPrice": "PKR 23,300",
+      "brandName": "",
+      "id": "5"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0010_Screenshot_20230831_141156_Gallery.jpg?v=1693570187",
+      "price": "PKR 7,437",
+      "discountPrice": "PKR 24,790",
+      "brandName": "",
+      "id": "6"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0004_Screenshot_20230831_141404_Gallery.jpg?v=1693569638&width=300",
+      "price": "PKR 6,897",
+      "discountPrice": "PKR 22,990",
+      "brandName": "",
+      "id": "7"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0037_Screenshot_20230831_140755_Gallery.jpg?v=1693570054",
+      "price": "PKR 6,597",
+      "discountPrice": "PKR 21,990",
+      "brandName": "Dilkash",
+      "id": "8"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/large-_0005_Screenshot_20230822_184142_Gallery.jpg?v=1692964294",
+      "price": "PKR 6,495",
+      "discountPrice": "PKR 21,650",
+      "brandName": "Laira",
+      "id": "9"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/Untitled-1_0006_Screenshot_20230228-174621_Gallery.jpg?v=1677671336",
+      "price": "PKR 6,537",
+      "discountPrice": "PKR 21,790",
+      "brandName": "N09",
+      "id": "10"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/fd15610e192db4271d02f04c9557b374.jpg?v=1706026220",
+      "price": "PKR 6,990",
+      "discountPrice": "PKR 23,300",
+      "brandName": "Zarpash",
+      "id": "11"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0022_Screenshot_20230821_201313_Gallery.jpg?v=1692710557",
+      "price": "PKR 6,495",
+      "discountPrice": "PKR 21,650",
+      "brandName": "Siya",
+      "id": "12"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0002_image00003_b1ae00b6-987b-41c5-9b15-2db7ede6d999.jpg?v=1697034903",
+      "price": "PKR 5,750.50",
+      "discountPrice": "PKR 18,550",
+      "brandName": "G01",
+      "id": "13"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/c41cffc863f12ce1ced643a597d0c02b.jpg?v=1706025752",
+      "price": "PKR 8,850",
+      "discountPrice": "PKR 29,500",
+      "brandName": "Naqshi",
+      "id": "14"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0007_Screenshot_20230821_204524_Gallery.jpg?v=1692710309",
+      "price": "PKR 5,997",
+      "discountPrice": "PKR 19,990",
+      "brandName": "Rasham",
+      "id": "16"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0001_DSC01167.jpg?v=1696675615",
+      "price": "PKR 7,973",
+      "discountPrice": "PKR 11,390",
+      "brandName": "NB-12",
+      "id": "17"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/large-_0005_Screenshot_20230822_183829_Gallery.jpg?v=1692964110",
+      "price": "PKR 6,495",
+      "discountPrice": "PKR 21,650",
+      "brandName": "Nira",
+      "id": "18"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/30ae2aa16d3d4d658a00da713849c232.jpg?v=1706025524",
+      "price": "PKR 6,450",
+      "discountPrice": "PKR 21,500",
+      "brandName": "Insia Blue",
+      "id": "19"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/large-_0005_Screenshot_20231016_175821_Gallery.jpg?v=1697622332",
+      "price": "PKR 5,997",
+      "discountPrice": "PKR 19,990",
+      "brandName": "Kiara",
+      "id": "20"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/Untitled-1_0004_Screenshot_20230228-174644_Gallery.jpg?v=1677671131",
+      "price": "PKR 6,492",
+      "discountPrice": "PKR 21,640",
+      "brandName": "N03",
+      "id": "21"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/DSC01883.jpg?v=1700468724&width=300",
+      "price": "PKR 6,390",
+      "discountPrice": "PKR 21,300",
+      "brandName": "RR04",
+      "id": "22"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0034_DSC05849.jpg?v=1683619715",
+      "price": "PKR 4,290",
+      "discountPrice": "PKR 14,300",
+      "brandName": "Neena",
+      "id": "23"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/DSC01957.jpg?v=1700469512",
+      "price": "PKR 6,390",
+      "discountPrice": "PKR 21,300",
+      "brandName": "RR03",
+      "id": "24"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/DSC02107.jpg?v=1700469216",
+      "price": "PKR 6,945",
+      "discountPrice": "PKR 23,150",
+      "brandName": "RR08",
+      "id": "25"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/f8a09c37cf858648d54a7bd1d542e495.jpg?v=1706017142",
+      "price": "PKR 7,500",
+      "discountPrice": "PKR 25,000",
+      "brandName": "Sajal",
+      "id": "26"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0026_Screenshot_20230831_141004_Gallery.jpg?v=1693569950",
+      "price": "PKR 6,495",
+      "discountPrice": "PKR 21,650",
+      "brandName": "Vanya",
+      "id": "27"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/large-_0020_Screenshot_20231014_224826_Gallery.jpg?v=1697623352",
+      "price": "PKR 5,997",
+      "discountPrice": "PKR 19,990",
+      "brandName": "Inaya",
+      "id": "28"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/Untitled-1_0005_Screenshot_20230228-174634_Gallery.jpg?v=1677671764",
+      "price": "PKR 6,754.90",
+      "discountPrice": "PKR 21,790",
+      "brandName": "N07",
+      "id": "29"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/4fb52efebec03667a38e36d2250bc0e3.jpg?v=1706026327",
+      "price": "PKR 6,945",
+      "discountPrice": "PKR 23,150",
+      "brandName": "Ria Lilac",
+      "id": "30"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/6_f09d4ec2-437c-4523-bed4-d070c718dc1f.jpg?v=1665238770",
+      "price": "PKR 7,553",
+      "discountPrice": "PKR 10,790",
+      "brandName": "NB-09",
+      "id": "31"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/DSC02144.jpg?v=1700469348",
+      "price": "PKR 6,495",
+      "discountPrice": "PKR 21,650",
+      "brandName": "RR01",
+      "id": "32"
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/3.3_d66ed8b6-4ae9-4dc1-aab1-f138f5180c3b.jpg?v=1665392003",
+      "price": "PKR 5,574",
+      "discountPrice": "PKR 9,290",
+      "brandName": "Ro30",
+      "id": "33"
+    },
+    {
+      "id": "caa5",
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/Untitled-1_0004_Screenshot_20230228-174644_Gallery.jpg?v=1677671131",
+      "price": "PKR 6,492",
+      "discountPrice": " PKR 21,640",
+      "brandName": "N03 - Pret"
+    },
+    {
+      "id": "18d1",
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/files/0066_DSC05499.jpg?v=1683619042&width=550",
+      "price": "PKR 6,435",
+      "discountPrice": "PKR 21,450",
+      "brandName": "Shabnam - Pret"
+    },
+    {
+      "id": "9bc8",
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/2_e0ee2dd2-3258-49fe-a2fc-e60c2f6a5eba.jpg?v=1665573675",
+      "price": "PKR 7,105",
+      "discountPrice": " PKR 10,150",
+      "brandName": "NB-08 - Pret"
+    },
+    {
+      "id": "38ea",
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/31_2_b54a997e-7115-4501-ad12-0619629c3042.jpg?v=1661603264&width=550",
+      "price": "PKR 8,394",
+      "discountPrice": " PKR 13,990",
+      "brandName": "SS#6 - Pret"
+    },
+    {
+      "id": "6676",
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/Untitled-1_0019_Screenshot_20221222-165317_Gallery.jpg?v=1671791115&width=550",
+      "price": "PKR 7,797",
+      "discountPrice": " PKR 25,990",
+      "brandName": "G04 - Pret"
+    },
+    {
+      "id": "c598",
+      "image": "https://cdn.shopify.com/s/files/1/2337/7003/products/53_553c9bd3-b6b7-444a-abd2-49cd162a26a1.jpg?v=1648802848&width=550",
+      "price": "PKR 8,145",
+      "discountPrice": "PKR 16,290",
+      "brandName": " RO-1 - Pret"
+    }
+  ]
+}

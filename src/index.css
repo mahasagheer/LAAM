@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  gap: 0;
+  scroll-behavior: smooth;
+}
+
+.shadow:hover {
+  box-shadow: 5px 5px 10px #555;
+}
+.moveBtn {
+  margin-top: -20%;
+}
+.slick-prev:before {
+  color: black;
+}
+.slick-next::before {
+  color: black;
+}
+.heading_two {
+  font-size: 2.5vw;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-family: "Playfair Display", serif;
+}
+.admin-hover-btn:hover {
+  background-color: #555;
+}
+h1 {
+  font-size: 2.5vw;
+  padding-top: 2rem;
+  margin-left: 4rem;
+  font-family: "Playfair Display", serif;
+}
+.category-image-name {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+.footer-msg {
+  font-family: "Playfair Display", serif;
+  font-size: 2vw;
+  color: white;
+}
+.footer-msg-detail {
+  color: white;
+  font-size: 0.95vw;
+  text-align: justify;
+}
+.phoneEmail {
+  font-size: 1vw;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+.inputEmailField {
+  outline: none;
+  font-size: smaller;
+}
+.footerHeading {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-weight: 500;
+  font-size: 1.2vw;
+}
+.footerPoints {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 0.95vw;
+}
+
+.categoryBtn {
+  position: absolute;
+  left: 45vw;
+}
+.topBtn {
+  background-color: #a9a9a9;
+  padding: 3%;
+}
+.topBtn,
+.topBtnText {
+  font-size: 0.95vw;
+}
+.topBtnText {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.95vw;
+}
+.iconsSize {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconName {
+  font-size: x-small;
+}
+.dropdown {
+  width: 7%;
+  height: 10vw;
+  position: fixed;
+  border-radius: 5%;
+  z-index: 1;
+}
+.countryName {
+  font-size: medium;
+  color: #555;
+}
+.mobileFooter {
+  z-index: 9;
+}
+.navbarIcons:hover {
+  border-radius: 5%;
+  background-color: #f6f6f6;
+}
+.selectCountry {
+  border-radius: 5%;
+  border-color: 1px solid gray;
+}
+.selectCountry:hover {
+  background-color: #cbd5e1;
+  border-radius: 5%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.mobileFooter {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  bottom: 0;
+}
+.warningLine {
+  background-color: #fdf2dc;
+}
+.emailBtn {
+  border-radius: 50%;
+  background-color: #6daafb;
+}
+.emailIcon {
+  font-weight: 800;
+}
+.slick-next::before {
+  color: black;
+}
+.slick-next {
+  right: 0%;
+  position: absolute;
+  display: block;
+  width: 3%;
+  height: 10%;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  background: white;
+  opacity: 0.75;
+}
+
+.slick-prev {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 3%;
+  height: 10%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: white;
+  z-index: 2;
+  opacity: 0.75;
+
+  left: 0%;
+}
