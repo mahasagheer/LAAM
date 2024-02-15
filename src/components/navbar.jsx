@@ -70,7 +70,7 @@ export default function Navbar() {
 
         <img
           className=" my-2 xl:h-10 lg:h-10 md:h-10 md:relative sm:absolute sm:h-10 sm:pl-8"
-          src="laam_logo.png"
+          src="https://cdn.shopify.com/s/files/1/2337/7003/files/laam_logo_7509750b-f46a-4cca-afb2-54b558126e81.png?v=1599740777"
           alt="logo image"
         />
         <ul className="flex flex-row  ">
