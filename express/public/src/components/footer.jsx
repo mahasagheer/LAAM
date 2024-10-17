@@ -23,10 +23,10 @@ const footer = () => {
           Back TO TOP
         </button>
       </div>
-      <footer className=" bg-neutral-900 w-full h-1/3 xl:visible lg:visible md:visible sm:visible  ">
+      <footer className=" bg-neutral-900 w-full h-1/3 xl:visible lg:visible md:visible sm:visible xs:invisible md:w-full  xs:w-0  ">
         <div className="parent mx-16 flex flex-row ">
-          <div className=" w-1/2 px-25  py-5 sm:px-0	">
-            <h3 className="footer-msg px-20 sm:px-10 pt-5 ">
+          <div className=" w-1/2 px-25  py-5 sm:px-0 md:h-full	xs:w-full xs:h-0">
+            <h3 className="footer-msg px-20 sm:px-10 pt-5  ">
               Get on Our list!
             </h3>
             <p className="footer-msg-detail  sm:px-10 px-20 pb-10">
@@ -36,7 +36,7 @@ const footer = () => {
               about our Privacy Policy here.
             </p>
           </div>
-          <div className=" w-1/2  ">
+          <div className=" w-1/2 xs:invisible md:w-full md:visible ">
             <h2 className="phoneEmail pt-14 pb-4 text-white ">Phone | Email</h2>
             <div className=" flex flex-row items-center w-20 bg-white">
               <img
@@ -54,15 +54,14 @@ const footer = () => {
                 value={phoneNo}
                 onChange={(e) => setPhoneNo(e.target.value)}
               />
-              <button className=" subscribe bg-white p-3 pl-14 text-zinc-400 xl:visible lg:visible md:invisible sm:hidden">
+              <button className=" subscribe bg-white p-3 pl-14 text-zinc-400 xl:visible lg:visible md:invisible sm:invisible">
                 SUBSCRIBE
               </button>
-              {/* <p className="text-white">{phoneNo}</p> */}
             </div>
           </div>
         </div>
       </footer>
-      <footer className=" bg-slate-100 w-full xl:visible lg:visible md:visible sm:visible">
+      <footer className=" bg-slate-100 w-full xl:visible lg:visible md:visible sm:invisible sm:h-0  xs:w-0  md:w-full xs:invisible xs:h-0">
         <div className="px-20 flex flex-row py-6 gap-14 w-10/12">
           <div className="">
             <h3 className="footerHeading">HELP & INFORMATION</h3>
@@ -99,32 +98,31 @@ const footer = () => {
                 alt=""
               />
               <span className="footerPoints p-2">PKR</span>
-              {/* <Link to="/add/product" /> */}
             </div>
           </div>
         </div>
       </footer>
 
-      <footer className="mobileFooter xl:hidden lg:hidden md:hidden sm:visible">
-        <div className="  border-t flex flex-row justify-evenly">
-          <NavLink to="/home" className="iconsSize py-2 px-10 ">
+      <footer className="mobileFooter xl:hidden lg:hidden md:hidden sm:visible xs:visible">
+        <div className="  border-t flex flex-row justify-evenly ">
+          <NavLink to="/home" className="iconsSize py-2 px-10 xs:px-5">
             <FontAwesomeIcon icon={faHouse} />
             <p className="iconName p-1">Home</p>
           </NavLink>
-          <NavLink to="category" className="iconsSize py-2 px-10 ">
+          <NavLink to="category" className="iconsSize py-2 px-10  xs:px-2">
             <FontAwesomeIcon icon={faTableCellsLarge} />
             <p className="iconName p-1">Category</p>
           </NavLink>
-          <NavLink to="brands" className="iconsSize py-2 px-10 ">
+          <NavLink to="brands" className="iconsSize py-2 px-10  xs:px-2">
             {" "}
             <FontAwesomeIcon icon={faStore} />
             <p className="iconName p-1">Brands</p>
           </NavLink>
-          <NavLink to="wishlist" className="iconsSize py-2 px-10 ">
+          <NavLink to="wishlist" className="iconsSize py-2 px-10 xs:px-2 ">
             <FontAwesomeIcon icon={faHeart} />
             <p className="iconName p-1">Wishlist</p>
           </NavLink>
-          <NavLink to="profile" className="iconsSize py-2 px-10 ">
+          <NavLink to="profile" className="iconsSize py-2 px-10  xs:px-2">
             <FontAwesomeIcon icon={faUser} />
             <p className="iconName p-1">Profile</p>
           </NavLink>

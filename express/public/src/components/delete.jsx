@@ -8,10 +8,12 @@ import { useParams } from "react-router-dom";
 export default function Delete() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { data, loading, error } = useFetch("http://localhost:3000/products");
+  const { data, loading, error } = useFetch(
+    "https://mahasagheer.github.io/jsonServer/db.json"
+  );
 
   function handleClick(id) {
-    fetch("http://localhost:3000/products/" + id, {
+    fetch("https://mahasagheer.github.io/jsonServer/db.json" + id, {
       method: "DELETE",
     }).then(() => navigate(1));
     alert("Product deleted successfully");

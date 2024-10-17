@@ -14,39 +14,46 @@ import {
   faHeart,
   faShoppingBag,
 } from "@fortawesome/free-solid-svg-icons";
+import { json } from "stream/consumers";
 
 export default function productDetails() {
   const { id } = useParams();
   const { data, loading, error } = useFetch(
-    "http://localhost:3000/products/" + id
+    `http://localhost:3001/products/${id}`
   );
-
   const [addProduct, setAddProduct] = useState(1);
   const [productDescription, setProductDescription] = useState(false);
 
-  // const navigate = useNavigate();
-  // const handleClick = () => {
-  //   fetch("http://localhost:3000/products/" + data.id, {
-  //     method: "DELETE",
-  //   }).then(() => {
-  //     navigate("/products");
-  //     console.log("deleted successfully");
-  //   });
-  // };
   const handleSubmit = (e) => {
     e.preventDefault();
+    fetch("/payment", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        items: [
+          { id: 1, quantity: 1 },
+          { id: 2, quantity: 2 },
+        ],
+      }),
+    })
+      .then((res) => {
+        if (res.ok) return res.json();
+        return res.json().then((json) => Promise.reject(json));
+      })
+      .then(({ url }) => {
+        console.log(url);
+        // window.location = url;
+      })
+      .catch((err) => console.log(err));
   };
-
   return (
     <div className="product-details parent">
       {error && <div>ERROR</div>}
       {loading && <div>LOADING....</div>}
       {data && (
         <section className=" my-6  xl:mx-8 lg:mx-0  md:mx-0 sm:mx-0">
-          <form
-            onSubmit={handleSubmit}
-            className=" flex xl:flex-row lg:flex-row lg:gap-0 md:flex-row md:flex-wrap md:gap-0  sm:px-6 sm:flex-col gap-2"
-          >
+          {console.log("hi")}
+          <form className=" flex xl:flex-row lg:flex-row lg:gap-0 md:flex-row md:flex-wrap md:gap-0  sm:px-6 sm:flex-col gap-2">
             <img
               className="xl:w-1/3 lg:w-2/5 md:w-1/2 sm:w-full lg:px-1  md:px-2 rounded"
               src={data.image}
@@ -77,7 +84,10 @@ export default function productDetails() {
               <hr></hr>
               <h2 className="pt-3 font-bold">Size:*</h2>
               <div className="pt-2 pb-4">
-                <button className="w-20 lg:w-10 lg:mx-1 rounded text-neutral-500 border border-neutral-400	 p-3 mx-2">
+                <button
+                  value="small"
+                  className="w-20 lg:w-10 lg:mx-1 rounded text-neutral-500 border border-neutral-400	 p-3 mx-2"
+                >
                   S
                 </button>
                 <button className="w-20  lg:w-10  lg:mx-1  rounded text-neutral-500 border border-neutral-400	 p-3 mx-2">
@@ -131,11 +141,14 @@ export default function productDetails() {
                 STANDARD SHIPPING<br></br> Est. Shipping Date: Feb 14, 2024
               </p>
               <div className=" flex flex-row flex-nowrap">
-                <button className="p-3 px-5 border mr-2 lg:p-2  border-neutral-400 rounded">
+                <button className=" px-5 h-10 mt-3 border mr-2 lg:p-2  border-neutral-400 rounded">
                   {" "}
                   <FontAwesomeIcon icon={faHeart} />
                 </button>
-                <button className="bg-black text-white p-3 w-10/12 rounded my-2 ">
+                <button
+                  className="bg-black text-white p-3 w-11/12 rounded my-2 "
+                  onClick={handleSubmit}
+                >
                   <FontAwesomeIcon
                     className="px-2"
                     icon={faShoppingBag}
@@ -173,7 +186,7 @@ export default function productDetails() {
                     Organza Dupatta: Organza<br></br> <b>Trouser:</b> Raw Silk
                     <br></br>
                     <b> Color Type:</b> Red<br></br>
-                    <b> Work Technique:</b> Embroidered & Embellished<br></br>{" "}
+                    <b> Work Technique:</b> Embroidered & Embellished<br></br>
                     <b> Best worn in:</b> All Season<br></br>
                     <b> Description:</b> Organza shirt paired with organza
                     dupatta & Raw Silk trouser. Its a 3 piece Stitched outfit.

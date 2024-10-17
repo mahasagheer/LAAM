@@ -13,7 +13,7 @@ export default function (url) {
         return res.json();
       })
       .then((data) => {
-        // console.log(data);
+        console.log(data);
         setData(data);
         setLoading(false);
       })

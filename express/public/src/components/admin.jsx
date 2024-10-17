@@ -23,7 +23,7 @@ export default function Admin() {
     const product = { image, price, discountPrice, brandName };
     console.log(product);
     setIsPending(true);
-    fetch("http://localhost:3000/products", {
+    fetch("http://localhost:3001/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(product),

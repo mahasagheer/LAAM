@@ -19,14 +19,14 @@ export default function moveSection() {
   ];
   return (
     <>
-      <h1>Featured Brands</h1>
-      <div className=" p-2 xl:mx-16 lg:mx-10 md:mx-0 sm:mx-0">
+      <h1 className=" xs:text-2xl  md:text-4xl">Featured Brands</h1>
+      <div className=" p-2 xl:mx-16 lg:mx-10 md:mx-0 sm:mx-0 xs:mx-0 xs:p-0">
         <Marquee pauseOnHover={true}>
           <div className="flex flex-row ">
             {rowSliderOne.map((f, i) => (
               <img
                 key={i}
-                className="p-2 xl:h-auto lg:h-auto md:h-20 sm:h-20 sm:p-1"
+                className="p-2 xl:h-auto lg:h-auto md:h-20 sm:h-20 sm:p-1 xs:p-1 xs:h-14"
                 src={f}
                 alt=""
               />
@@ -38,7 +38,7 @@ export default function moveSection() {
             {rowSliderTwo.map((f, i) => (
               <img
                 key={i}
-                className="p-2  xl:h-auto lg:h-auto md:h-20 sm:h-20 sm:p-1"
+                className="p-2  xl:h-auto lg:h-auto md:h-20 sm:h-20 sm:p-1 xs:p-1 xs:h-14"
                 src={f}
                 alt=""
               />

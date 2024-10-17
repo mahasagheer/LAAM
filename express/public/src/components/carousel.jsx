@@ -21,17 +21,17 @@ export default function Carousel({
   }, []);
   return (
     <div className=" xl:mx-16 lg:mx-10 md:mx-0 sm:mx-0">
-      <div className=" overflow-hidden relative">
+      <div className="overflow-x-hidden relative">
         <div
           className="flex transition-transform ease-out duration-500"
           style={{ transform: `translateX(-${curr * 100}%)` }}
         >
           {slides}
         </div>
-        <div className="absolute inset-0 flex items-center justify-between ">
+        <div className="absolute inset-0 flex items-center justify-between">
           <button
             onClick={prev}
-            className="p-4  shadow bg-white/80 text-grey-800 hover:bg-white
+            className="p-4  shadow bg-white/80 text-grey-800 hover:bg-white 
           "
           >
             {" "}

@@ -22,6 +22,12 @@ const slides = [
   "https://cdn.shopify.com/s/files/1/2337/7003/files/Modest-Desktop1703773397.jpg",
 ];
 
+const slideTwo = [
+  "https://cdn.shopify.com/s/files/1/2337/7003/files/Unstitched1716384346.jpg?width=500",
+  "https://cdn.shopify.com/s/files/1/2337/7003/files/Modest-Wear1716384329.jpg?width=500",
+  "https://cdn.shopify.com/s/files/1/2337/7003/files/Ready-to-wear1716384314.jpg?width=500",
+  "https://cdn.shopify.com/s/files/1/2337/7003/files/Footwear1716384350.jpg?width=500",
+];
 const App = () => {
   return (
     <BrowserRouter>
@@ -37,6 +43,11 @@ const App = () => {
                     <img key={i} src={s} alt="" />
                   ))}
                 </Carousel>
+                {/* <Carousel autoSlide={true}>
+                  {slideTwo.map((s, i) => (
+                    <img key={i} src={s} alt="" />
+                  ))}
+                </Carousel> */}
 
                 <SliderOne />
                 <Category />
@@ -63,6 +74,7 @@ const App = () => {
               <div>
                 <Navbar />
                 <ProductDetails />
+                <Footer />
               </div>
             }
           />

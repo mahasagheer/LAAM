@@ -74,7 +74,7 @@ export default function slider() {
 
   return (
     <>
-      <h1>Top 10 Deals Of The Day</h1>
+      <h1 className=" xs:text-2xl  md:text-4xl">Top 10 Deals Of The Day</h1>
       <div className=" my-6  xl:mx-16 lg:mx-14 md:mx-0 sm:mx-0">
         <Slider {...settings}>
           {firstSlider.map((f, i) => (
@@ -84,7 +84,7 @@ export default function slider() {
           ))}
         </Slider>
       </div>
-      <h1>New Arrivals Of The Week</h1>
+      <h1 className=" xs:text-2xl  md:text-4xl">New Arrivals Of The Week</h1>
       <div className="parent w-lvw my-6  xl:mx-14 lg:mx-14 md:mx-0 sm:mx-0">
         <Slider {...settings}>
           {secondSlider.map((s, i) => (
@@ -94,7 +94,7 @@ export default function slider() {
           ))}
         </Slider>
       </div>
-      <h1 className="mt-8">Best of Designer Luxury</h1>
+      <h1 className=" xs:text-2xl  md:text-4xl">Best of Designer Luxury</h1>
       <div className="parent w-lvw my-6  xl:mx-14 lg:mx-14 md:mx-0 sm:mx-0">
         <Slider {...settings}>
           {thirdSlider.map((s, i) => (

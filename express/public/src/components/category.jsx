@@ -78,14 +78,14 @@ export default function category() {
 
   return (
     <>
-      <h1>Shop By Category</h1>
+      <h1 className=" xs:text-2xl md:text-4xl">Shop By Category</h1>
       <section>
-        <div className=" xl:mx-16 lg:mx-10 md:mx-8 sm:mx-6">
-          <div className="flex flex-row flex-wrap xl:gap-5 lg:gap-10 md:gap-10 sm:gap-10   ">
+        <div className=" xl:mx-16 lg:mx-10 md:mx-8 sm:mx-6 ">
+          <div className="flex flex-row flex-wrap xl:gap-5 lg:gap-10 md:gap-10 sm:gap-10  xs:pl-2 xs:py-2 xs:ml-3  ">
             {slice.map((slice, i) => (
               <div
                 key={i}
-                className=" flex flex-col xl:w-auto lg:w-40 md:w-30 sm:w-20"
+                className=" flex flex-col xl:w-auto lg:w-40 md:w-30 sm:w-[20%] xs:w-[30%]"
               >
                 <img src={slice.url} alt="" />
                 <h3 className="category-image-name xl:text-lg lg:text-lg md:text-sm sm:text-xs text-center mt-2">
@@ -95,15 +95,11 @@ export default function category() {
             ))}
           </div>
           <button
-            className="mt-10 categoryBtn text-center mx-30 text-blue-500	 "
+            className="mt-10 categoryBtn p-2 rounded-lg mx-30 text-black 	xs:mt-0 md:ml-[50%] md:text-lg xs:ml-[30%] sm:text-sm"
             onClick={() => viewMoreCategory()}
           >
             {categoryBtnText}
-            <FontAwesomeIcon
-              className="pl-2"
-              icon={downIcon}
-              color="rgb(59 130 246)"
-            />
+            <FontAwesomeIcon className="pl-2" icon={downIcon} color="black" />
           </button>
         </div>
       </section>
